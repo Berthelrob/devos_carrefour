@@ -30,7 +30,7 @@ gpasswd -a carlos GRP_ADM
 gpasswd -a maria GRP_ADM
 gpasswd -a joao GRP_ADM
 
-useradd debora -c "Debora"-s /bin/bash -m -p $(openssl passwd -crypt Senha123) -e 2022-09-26
+useradd debora -c "Debora" -s /bin/bash -m -p $(openssl passwd -crypt Senha123) -e 2022-09-26
 useradd sebastiana -c "Sebastiana" -s /bin/bash -m -p $(openssl passwd -crypt Senha123) -e 2022-09-26
 useradd roberto -c “"Roberto" -s /bin/bash -m -p $(openssl passwd -crypt Senha123) -e 2022-09-26
 gpasswd -a debora GRP_VEN
