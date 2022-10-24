@@ -1,2 +1,2 @@
-# devos_carrefour
+# devops_carrefour
 Programa de treinamento devops do banco carrefour
